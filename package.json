@@ -1,0 +1,31 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "个人技术博客",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuoLiBin6/tech-blog.git"
+  },
+  "keywords": [
+    "前端"
+  ],
+  "author": "GuoLiBin6",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuoLiBin6/tech-blog/issues"
+  },
+  "homepage": "https://github.com/GuoLiBin6/tech-blog#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-theme-vdoing": "^1.11.2"
+  },
+  "dependencies": {
+    "vuepress-plugin-cat": "^1.0.3"
+  }
+}
