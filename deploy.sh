@@ -23,4 +23,6 @@ git commit -m "deploy"
 git push -f git@github.com:GuoLiBin6/tech-blog.git master:gh-pages
 
 cd -
+rm -rf public/tech-blog
+cp -r docs/.vuepress/dist public/tech-blog
 rm -rf docs/.vuepress/dist

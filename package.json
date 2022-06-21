@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "express-start": "node ./bin/www",
+    "pm2-start": "pm2 start ./bin/www --watch --name=前端知识体系",
+    "pm2-stop": "pm2 stop all"
   },
   "repository": {
     "type": "git",
@@ -26,6 +29,7 @@
     "vuepress-theme-vdoing": "^1.11.2"
   },
   "dependencies": {
+    "express": "^4.17.3",
     "vuepress-plugin-cat": "^1.0.3"
   }
 }
