@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "express": "^4.17.3",
-    "vuepress-plugin-cat": "^1.0.3"
+    "vuepress-plugin-cat": "^1.0.3",
+    "vuepress-plugin-comment": "^0.7.3"
   }
 }
