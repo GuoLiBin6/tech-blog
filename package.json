@@ -7,6 +7,7 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bash deploy.sh",
     "express-start": "node ./bin/www",
     "pm2-start": "pm2 start ./bin/www --watch --name=前端知识体系",
     "pm2-stop": "pm2 stop all"
@@ -30,7 +31,6 @@
   },
   "dependencies": {
     "express": "^4.17.3",
-    "vuepress-plugin-cat": "^1.0.3",
-    "vuepress-plugin-comment": "^0.7.3"
+    "vuepress-plugin-cat": "^1.0.3"
   }
 }
