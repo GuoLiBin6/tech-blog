@@ -26,6 +26,10 @@ module.exports = {
     themeConfig: {
         sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
         sidebar: 'structuring',
+        author: {
+            name: 'GuoLiBin6', // 必需
+            link: 'https://github.com/GuoLiBin6', // 可选的
+        },
         blogger: {
             avatar: '/tech-blog/images/avatar.jpeg',
             name: 'GuoLiBin6',
@@ -40,6 +44,24 @@ module.exports = {
             'GuoLiBin6 </br>冀ICP备2022013865号-1', // 博客版权信息，支持a标签或换行标签</br>
         },
     },
+    // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
+    head: [
+        ['link', { rel: 'icon', href: '/images/favicon.ico' }], //favicons，资源放在public文件夹
+        [
+            'meta',
+            {
+                name: 'keywords',
+                content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
+            },
+        ],
+    ],
+    // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
+    // extendFrontmatter: {
+    //     author: {
+    //         name: 'GuoLiBin6',
+    //         link: 'https://github.com/GuoLiBin6'
+    //     }
+    // },
     // 监听文件变化并重新构建
     extraWatchFiles: [
         '.vuepress/config.js',
