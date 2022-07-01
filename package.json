@@ -32,6 +32,7 @@
   "dependencies": {
     "express": "^4.17.3",
     "vuepress-plugin-cat": "^1.0.3",
-    "vuepress-plugin-one-click-copy": "^1.0.6"
+    "vuepress-plugin-one-click-copy": "^1.0.6",
+    "vuepress-plugin-zooming": "^1.1.8"
   }
 }
