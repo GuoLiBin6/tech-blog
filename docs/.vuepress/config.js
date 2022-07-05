@@ -59,7 +59,7 @@ module.exports = {
         footer: {
             createYear: 2022, // 博客创建年份
             copyrightInfo:
-            'GuoLiBin6 </br>冀ICP备2022013865号-1', // 博客版权信息，支持a标签或换行标签</br>
+            'GuoLiBin6 </br><a href="https://beian.miit.gov.cn/" target="_blank">冀ICP备2022013865号-1</a>', // 博客版权信息，支持a标签或换行标签</br>
         },
     },
     // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
