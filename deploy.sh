@@ -21,9 +21,9 @@ git commit -m "deploy"
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:GuoLiBin6/tech-blog.git master:gh-pages
-git push -f https://github.com/GuoLiBin6/tech-blog.git master:gh-pages
+git push -f https://github.com/GuoLiBin6/tech-blog.git main:gh-pages
 
-cd -
+cd ~-
 rm -rf public/tech-blog
 cp -r docs/.vuepress/dist public/tech-blog
 rm -rf docs/.vuepress/dist

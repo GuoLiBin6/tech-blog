@@ -45,6 +45,11 @@ export default {
 </script>
 
 <style scoped>
+.g-img {
+  border-radius: 5px;
+  box-shadow: 0 0 1px rgba(125, 125, 125, 0.1);
+  border: solid 1px #eee;
+}
 .g-img.error {
   display: inline-block;
   transform: scale(1);
