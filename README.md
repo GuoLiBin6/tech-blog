@@ -16,6 +16,8 @@
 
 相较于多个平台都要发布同一篇文章或使用同一个图片，每一个平台都要上传一遍图片，那 图床（把图片统一上传到一个在线的第三方静态资源库中，返回一个图片的URL）将是一个很好的解决方案，推荐查看 [GitHub + jsDelivr + TinyPNG+ PicGo 打造稳定快速、高效免费图床](https://xugaoyi.com/pages/a5f73af5185fdf0a)
 
+不过最近发现，TinyPNG + PicGo + Github 的方式，本地开发使用时较为繁琐，若图片不合适需要更换、删除更麻烦，于是开始使用了 [Github + VSCode + TinyPNG插件 + Github + jsDeliver](https://guolibin6.github.io/tech-blog/pages/24ee09/) 的方式，本地开发时使用更方便。
+
 ## 评论模块
 
 [Gitalk](https://gitalk.github.io/) 做评论模块，具体使用介绍可查看 wiki [评论模块实现](https://github.com/GuoLiBin6/tech-blog/wiki/%E8%AF%84%E8%AE%BA%E6%A8%A1%E5%9D%97%E5%AE%9E%E7%8E%B0)
