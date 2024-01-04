@@ -23,6 +23,7 @@ export default {
   data () {
     return {
       showError: false,
+      baseUrl: '',
     }
   },
   computed: {
@@ -33,7 +34,13 @@ export default {
       return ret
     },
     imgUrl () {
-      return this.src ? this.src : 'https://gcore.jsdelivr.net/gh/GuoLiBin6/images/tech-blog/' + this.name
+      return this.src ? this.src : (this.baseUrl ? this.baseUrl + this.name : '')
+    }
+  },
+  created () {
+    try {
+      this.baseUrl = window.location.href.includes('localhost') ? 'http://127.0.0.1:8090/tech-blog/' : 'https://gcore.jsdelivr.net/gh/GuoLiBin6/images/tech-blog/'
+    } catch(err) {
     }
   },
   methods: {
