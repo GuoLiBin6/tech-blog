@@ -2,3 +2,6 @@ node_modules
 vdoing
 docs/.vuepress/dist
 public/tech-blog
+
+# vscode
+.history
